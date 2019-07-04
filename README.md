@@ -1,6 +1,6 @@
-# luCIFeRO
+# lcfr
 
-luCIFeRO is a C++ library that implements elliptic curve cryptography algorithms for digital signature (ECDSA).
+lcfr is a C++ library that implements elliptic curve cryptography algorithms for digital signature (ECDSA).
 
 The library supports SEC curves up to 128 bit security. The list includes:
  * 56-bit - secp112r1, secp112r2

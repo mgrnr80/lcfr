@@ -11,28 +11,28 @@ struct uint_traits {
 template <>
 struct uint_traits<uint32_t>
 {
-	typedef uint64_t d;
-	typedef int64_t sd;
-	typedef int32_t s;
-	enum : unsigned { bits = 8 * sizeof(uint32_t) };
+    typedef uint64_t d;
+    typedef int64_t sd;
+    typedef int32_t s;
+    enum : unsigned { bits = 8 * sizeof(uint32_t) };
 };
 
 template <>
 struct uint_traits<uint16_t>
 {
-	typedef uint32_t d;
-	typedef int32_t sd;
-	typedef int16_t s;
-	enum : unsigned { bits = 8 * sizeof(uint16_t) };
+    typedef uint32_t d;
+    typedef int32_t sd;
+    typedef int16_t s;
+    enum : unsigned { bits = 8 * sizeof(uint16_t) };
 };
 
 template <>
 struct uint_traits<uint8_t>
 {
-	typedef uint16_t d;
-	typedef int16_t sd;
-	typedef int8_t s;
-	enum : unsigned { bits = 8 * sizeof(uint8_t) };
+    typedef uint16_t d;
+    typedef int16_t sd;
+    typedef int8_t s;
+    enum : unsigned { bits = 8 * sizeof(uint8_t) };
 };
 
 

@@ -1,5 +1,5 @@
 /** \file i_library_info.h
-  * The file includes the luCIFeRO library info provider C/C++ interface.
+  * The file includes the lcfr library info provider C/C++ interface.
   */
 #pragma once
 

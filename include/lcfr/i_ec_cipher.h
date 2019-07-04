@@ -1,5 +1,5 @@
 /** \file i_ec_cipher.h
-  * The file includes the luCIFeRo library C/C++ interface.
+  * The file includes the lcfr library C/C++ interface.
   */
 #pragma once
 
