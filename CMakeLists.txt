@@ -10,5 +10,8 @@ include_directories(${CMAKE_SOURCE_DIR}/src)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 add_definitions(-D__BUILD_LCFR_LIBRARY__)
 
+find_package(JNI REQUIRED)
+include_directories(${JNI_INCLUDE_DIRS})
+
 add_library(lcfr SHARED ${SRCS})
 target_link_libraries(lcfr -static-libgcc -static-libstdc++)
